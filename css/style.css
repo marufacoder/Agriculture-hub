@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+}
+.nav-item{
+    margin-left: 45px;
+    border-radius: 10px;
+    transition: .8s ease;
+    padding: 0 5px;
+}
+.nav-item:hover{
+  background-color: rgb(43, 226, 134);
+}
+.nav-item:hover a{
+    color: beige !important;
+}
+.nav-item a{
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-item a.active{
+    color: blue !important;
+}
+.text-justify{
+    text-align: justify;
+}
+.heading_1{
+    padding: 0px;
+    margin: 0px;
+    color: greenyellow;
+    
+}
+.text-justify{
+      text-align: justify;
+}
