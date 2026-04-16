@@ -34,3 +34,13 @@
 .text-justify{
       text-align: justify;
 }
+ .card-pest{
+    height: 200px;
+    object-fit: cover;
+}
+.card{
+    transition: 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.05);
+}
